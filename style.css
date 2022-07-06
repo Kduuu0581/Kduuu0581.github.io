@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-image: url(imagens/imagem_background_portifolio.jpg);
     background-repeat: no-repeat;
