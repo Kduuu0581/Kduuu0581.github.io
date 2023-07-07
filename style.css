@@ -74,4 +74,12 @@
   div.nav1 p {
     margin: 0
   }
+
+  .social-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
   
