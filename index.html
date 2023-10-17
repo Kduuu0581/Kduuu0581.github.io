@@ -37,10 +37,11 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/foto_perfil.png" alt="Carlos Oliveira foto de perfil">
+        <img class="foto" src="./assets/foto_perfil.png" alt="Carlos Oliveira foto de perfil">
         <div class="section__text">
-          <h1 class="title">Carlos Oliveira</h1>
-          <h2 class="title">Desenvolvedor Web</h2>
+          <p class="section__text__p1">Olá, eu sou</p>
+        <h1 class="title">Carlos</h1>
+        <p class="section__text__p2">Desenvolvedor Web</p>
           <p class="section__text__p1">
             Olá, meu nome é Carlos Oliveira, sou desenvolvedor web e estou
             disponível para novos projetos. Entre em contato comigo!
@@ -49,9 +50,19 @@
             <button class="btn btn-color-2" onclick="window.open('./assets/Carlos Eduardo Oliveira CV.pdf')">
               Baixar CV
             </button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">
+              Informações de contato
+            </button>
+          </div>
+          <div id="socials-container">
+            <img src="./assets/linkedin.png" alt="Meu perfil do Linkedin" class="icon" onclick="location.href='https://www.linkedin.com/in/carlosoliveira81/'">
+            <img src="./assets/github.png" alt="Meu perfil do Github" class="icon" onclick="location.href='https://github.com/Kduuu0581'" >
           </div>
         </div>
       </div>
+    </section>
+    <section id="about">
+      
     </section>
     <script src="scripts/index.js"></script>
   </body>

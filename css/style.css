@@ -20,6 +20,12 @@ p,
   color: rgb(85, 85, 85);
 }
 
+.foto {
+  border-radius: 32px;
+  border: 1rem solid #fff;
+  box-shadow: 0 0 0 0.5rem #fff;
+}
+
 /* FLEXED ELEMENTS */
 
 article,
@@ -38,6 +44,7 @@ nav,
 .section__pic-container,
 .section-container {
   display: flex;
+  justify-content: center;
 }
 
 nav,
