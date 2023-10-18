@@ -24,6 +24,8 @@ p,
   border-radius: 32px;
   border: 1rem solid #fff;
   box-shadow: 0 0 0 0.5rem #fff;
+  display: flex;
+  justify-content: center;
 }
 
 /* FLEXED ELEMENTS */
